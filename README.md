@@ -10,10 +10,20 @@ Quick installation of crypto mining on Android Phones
 lscpu
 ```
 
-### Verus + AdventureCoin Mining
-Install miners and set it to auto start on phone boot with the following (replace pool url, wallet address, password, and thread count with your settings)
+### Verus + AdventureCoin Dual Mining
+Install miners and set it to auto start on phone boot with the following (replace pool url, wallet address, password, and thread count with your settings). On reboot, miners will start automatically, but you need to do ```screen -r miner``` to attach and then use ctrl+a twice to switch between the two miner windows. Alternatively, you can exit both windows with ctrl+c and then run ```~/uistartup.sh``` the get the split view.
+
 Determine CPU thread affinity here: https://bitsum.com/tools/cpu-affinity-calculator/
-Example Params: 
+- Param 1: VRSC Pool URL
+- Param 2: VRSC Wallet
+- Param 3: VRSC Password
+- Param 4: VRSC Threads
+- Param 5: VRSC CPU Affinity
+- Param 6: ADVC Pool URL
+- Param 7: ADVC Wallet
+- Param 8: ADVC Password
+- Param 9: ADVC Threads
+- Param 10: ADVC CPU Affinity
 
 #### 8-Core (4 core for Verus and 4 core for AdventureCoin)
 ```bash
