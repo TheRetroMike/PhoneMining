@@ -36,7 +36,7 @@ apt update -y && apt install wget -y && wget https://raw.githubusercontent.com/T
 apt update -y && apt install wget -y && wget https://raw.githubusercontent.com/TheRetroMike/PhoneMining/refs/heads/main/termux_vrsc_advc_dual.sh && chmod +x termux_vrsc_advc_dual.sh && ./termux_vrsc_advc_dual.sh "stratum+tcp://na.luckpool.net:3960" "RKbgnfWAbL43K1HrxLoWcDzRmTspYFRj6U" "x" "3" "0x7" "stratum+tcp://retromike.net:5018" "AUj1eDiQU2JZGXfZKcXk17npLZo6LkdnDw" "x" "3" "0x38" && rm termux_vrsc_advc_dual.sh
 ```
 
-If you want to modify your settings later, you can always do so by adjust the dualmine.config file
+If you want to modify your settings later, you can always do so by adjusting the dualmine.config file
 ```
-nano ~/startup.sh
+nano ~/dualmine.config
 ```
