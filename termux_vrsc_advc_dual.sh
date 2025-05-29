@@ -28,6 +28,7 @@ echo "screen 2 advc_miner/cpuminer -a YespowerAdvc -o $6 -u $7 -p $8 -t $9 --cpu
 echo "screen -s \"/bin/bash\" -c ~/dualmine.config -dmS miner" > startup.sh
 echo "screen -c dualmine.config" > ui-startup.sh
 chmod +x startup.sh
+chmod +x ui-startup.sh
 mkdir -p ~/.termux/boot
 wget https://raw.githubusercontent.com/TheRetroMike/VerusCliMining/refs/heads/main/termux_boot_startup.sh -O ~/.termux/boot/termux_boot_startup.sh
 ~/ui-startup.sh
