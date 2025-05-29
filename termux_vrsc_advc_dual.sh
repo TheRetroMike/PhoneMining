@@ -20,7 +20,7 @@ cd advc_miner
 
 #CONFIG
 cd ~
-echo "screen 1 ccminer/ccminer -a verus -o $1 -u $2 -p $3 -t $4 --cpu-affinity $5" > dualmine.config
+echo "screen 1 vrsc_miner/ccminer -a verus -o $1 -u $2 -p $3 -t $4 --cpu-affinity $5" > dualmine.config
 echo "split" >> dualmine.config
 echo "focus" >> dualmine.config
 echo "screen 2 advc_miner/cpuminer -a YespowerAdvc -o $6 -u $7 -p $8 -t $9 --cpu-affinity ${10}" >> dualmine.config
