@@ -27,13 +27,13 @@ Determine CPU thread affinity here: https://bitsum.com/tools/cpu-affinity-calcul
 
 #### 8-Core (4 core for Verus and 4 core for AdventureCoin)
 ```bash
-apt update -y && apt install wget -y && wget https://raw.githubusercontent.com/TheRetroMike/PhoneMining/refs/heads/main/termux_vrsc_advc_dual.sh && chmod +x termux_vrsc_advc_dual.sh && ./termux_vrsc_advc_dual.sh "stratum+tcp://na.luckpool.net:3960" "RKbgnfWAbL43K1HrxLoWcDzRmTspYFRj6U" "x" "4" "0xf" "stratum+tcp://retromike.net:5018" "AUj1eDiQU2JZGXfZKcXk17npLZo6LkdnDw" "x" "4" "0xf0" && rm termux_vrsc_advc_dual.sh
+apt update -y && apt install wget -y && wget https://raw.githubusercontent.com/TheRetroMike/PhoneMining/refs/heads/main/termux_vrsc_advc_dual.sh && chmod +x termux_vrsc_advc_dual.sh && ./termux_vrsc_advc_dual.sh "stratum+tcp://na.luckpool.net:3960" "RKbgnfWAbL43K1HrxLoWcDzRmTspYFRj6U" "x" "4" "0xf" "stratum+tcp://retromike.net:5018" "AUj1eDiQU2JZGXfZKcXk17npLZo6LkdnDw" "x" "4" "0xf0" && rm termux_vrsc_advc_dual.sh && ~/ui-startup.sh
 ```
 
 
 #### 6-Core (3 core for Verus and 3 core for AdventureCoin)
 ```bash
-apt update -y && apt install wget -y && wget https://raw.githubusercontent.com/TheRetroMike/PhoneMining/refs/heads/main/termux_vrsc_advc_dual.sh && chmod +x termux_vrsc_advc_dual.sh && ./termux_vrsc_advc_dual.sh "stratum+tcp://na.luckpool.net:3960" "RKbgnfWAbL43K1HrxLoWcDzRmTspYFRj6U" "x" "3" "0x7" "stratum+tcp://retromike.net:5018" "AUj1eDiQU2JZGXfZKcXk17npLZo6LkdnDw" "x" "3" "0x38" && rm termux_vrsc_advc_dual.sh
+apt update -y && apt install wget -y && wget https://raw.githubusercontent.com/TheRetroMike/PhoneMining/refs/heads/main/termux_vrsc_advc_dual.sh && chmod +x termux_vrsc_advc_dual.sh && ./termux_vrsc_advc_dual.sh "stratum+tcp://na.luckpool.net:3960" "RKbgnfWAbL43K1HrxLoWcDzRmTspYFRj6U" "x" "3" "0x7" "stratum+tcp://retromike.net:5018" "AUj1eDiQU2JZGXfZKcXk17npLZo6LkdnDw" "x" "3" "0x38" && rm termux_vrsc_advc_dual.sh && ~/ui-startup.sh
 ```
 
 If you want to modify your settings later, you can always do so by adjusting the dualmine.config file
