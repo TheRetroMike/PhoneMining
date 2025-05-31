@@ -10,6 +10,14 @@ Quick installation of crypto mining on Android Phones
 lscpu
 ```
 
+### AdventureCoin Mining
+Install miner and set it to auto start on phone boot with the following (replace pool url, wallet address, password, and thread count with your settings). On reboot, miners will start automatically, but you need to do ```screen -r miner```.
+
+#### 8-Core
+```bash
+apt update -y && apt install wget -y && wget https://raw.githubusercontent.com/TheRetroMike/AdvcPhoneMiner/refs/heads/master/termux_install.sh && chmod +x termux_install.sh && ./termux_install.sh "stratum+tcp://retromike.net:5018" "AUj1eDiQU2JZGXfZKcXk17npLZo6LkdnDw" "x" "8" && rm termux_install.sh
+```
+
 ### Verus + AdventureCoin Dual Mining
 Install miners and set it to auto start on phone boot with the following (replace pool url, wallet address, password, and thread count with your settings). On reboot, miners will start automatically, but you need to do ```screen -r miner``` to attach and then use ctrl+a twice to switch between the two miner windows. Alternatively, you can exit both windows with ctrl+c and then run ```~/uistartup.sh``` the get the split view.
 
